@@ -14,6 +14,7 @@ while True:
             print("Игра завершена")
             break
         else:
+            number = random.randint(Fn,Sn)
             continue
     if guess > number:
         print("Загаданное число меньше")
