@@ -18,6 +18,6 @@ while True:
             continue
     if guess > number:
         print("Загаданное число меньше")
-    if guess < number:
+    elif guess < number:
         print("Загаданное число больше")
         
