@@ -6,7 +6,11 @@ Sn = int(input("До сколько будет идти игра: "))
 number = random.randint(Fn,Sn)
 
 while True:
-    guess = int(input("Угадайте число: "))
+    try:
+        guess = int(input("Угадайте число: "))
+    except:
+        print("Вводите только числа")
+        continue
     if guess == number:
         print("Поздравляю вы угадали это:",number)
         con = input("Продолжить?(y/n): ")
