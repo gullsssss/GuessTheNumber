@@ -11,22 +11,22 @@ while True:
     except:
         print("Вводите только числа")
         continue
+    attempt += 1
     if guess == number:
-        print("Поздравляю вы угадали это:",number)
+        print("Поздравляю вы угадали это:",number, "вы потратили", attempt, "попытки")
         con = input("Продолжить?(y/n): ")
         if con != "y":
             print("Игра завершена")
             break
         else:
             number = random.randint(Fn,Sn)
+            attempt = 0
             continue
     if guess > number:
         print("Загаданное число меньше")
-        attempt += 1
     elif guess < number:
         print("Загаданное число больше")
-        attempt += 1
-    if attempt == "3":
+    if attempt == 3:
         print("К сожалению вы проиграли было потрачено 3 попытки")
         break
         
