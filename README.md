@@ -33,24 +33,25 @@ The player tries to guess a randomly generated number within a limited number of
 
 Check your Python version:
 
+```bash
 python --version
-
+```
 ---
 
 ## 🚀 Installation
 
 Clone the repository:
-
+```bash
 git clone https://github.com/gullsssss/GuessTheNumber.git
-
+```
 Go to the project folder:
-
+```bash
 cd GuessTheNumber
-
+```
 Run the game:
-
+```bash
 python GTN.py
-
+```
 ---
 
 ## 🎮 How to Play
