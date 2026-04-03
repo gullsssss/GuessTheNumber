@@ -41,7 +41,7 @@ python --version
 
 Clone the repository:
 
-git clone https://github.com/gullssss/GuessTheNumber.git
+git clone https://github.com/gullsssss/GuessTheNumber.git
 
 Go to the project folder:
 
