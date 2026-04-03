@@ -29,5 +29,9 @@ while True:
         print("Загаданное число больше")
     if attempt == at:
         print("К сожалению вы проиграли было потрачено", at, "попыток")
-        break
+        con = input("Прололжить?(y/n): ")
+        if con != y:
+            break
+        else:
+            continue
         
