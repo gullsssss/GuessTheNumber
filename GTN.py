@@ -20,6 +20,8 @@ while True:
             print("Игра завершена")
             break
         else:
+            Fn = int(input("От сколько будет идти игра: "))
+            Sn = int(input("До сколько будет идти игра: "))
             number = random.randint(Fn,Sn)
             attempt = 0
             continue
@@ -33,5 +35,4 @@ while True:
         if con != y:
             break
         else:
-            continue
-        
+            continue      
