@@ -32,7 +32,7 @@ while True:
     if attempt == at:
         print("К сожалению вы проиграли было потрачено", at, "попыток")
         con = input("Прололжить?(y/n): ")
-        if con != y:
+        if con != "y":
             break
         else:
             continue      
