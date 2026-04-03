@@ -3,6 +3,7 @@ import random
 print("Привествуем вас в игре 'Угадай число' чтобы начать введите")
 Fn = int(input("От сколько будет идти игра: "))
 Sn = int(input("До сколько будет идти игра: "))
+at = int(input("Сколько попыток у вас будет попыток: "))
 number = random.randint(Fn,Sn)
 attempt = 0
 while True:
@@ -26,7 +27,7 @@ while True:
         print("Загаданное число меньше")
     elif guess < number:
         print("Загаданное число больше")
-    if attempt == 3:
-        print("К сожалению вы проиграли было потрачено 3 попытки")
+    if attempt == at:
+        print("К сожалению вы проиграли было потрачено", at, "попыток")
         break
         
